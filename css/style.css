@@ -98,6 +98,25 @@ body{
   color: #f33c3c;
   transition: all ease 0.3s;
 }
+
+.blog-text .read-more-btn{
+  color: black;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.blog-text .read-more-btn:hover{
+  color: #f33c3c;
+  transition: all ease 0.3s;
+}
+.blog-text .read-more-text{
+  display: none;
+}
+.blog-text .read-more-text--show{
+  display: inline;
+}
+
+
+/*--responsive--*/
 @media(max-width:1250px){
   .blog-box{
     width: 300px;
